@@ -1,0 +1,28 @@
+[package]
+name = "iweb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+path = "lib.rs"
+
+[profile.dev]
+split-debuginfo = "unpacked"
+
+
+[dependencies]
+wasm-bindgen = "0.2.63"
+js-sys = "0.3"
+lazy_static = "1.4"
+serde_json = "1"
+serde = "1"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.13"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [ "console", "Document","Window", "Element", "NodeList", "HtmlElement", "Node", "Performance", "Attr", "Storage",  'Headers', 'Request', 'RequestInit', 'RequestMode', 'Response' ]
+
