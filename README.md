@@ -2,6 +2,8 @@ iweb
 
 Easy use web_sys.
 
+
+
 ```rust
 use iweb;
 
@@ -12,7 +14,7 @@ fn main(){
 }
 ```
 
-Or
+Or use call link:
 
 ```rust
 use iweb;
