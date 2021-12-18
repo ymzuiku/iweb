@@ -6,6 +6,7 @@ authors = ["Pillar <ymblender@gmail.com>"]
 description = "Use web_sys like call link"
 rust-version = "1.56"
 readme = "README.md"
+license-file = "LICENSE"
 documentation = "https://github.com/ymzuiku/iweb"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
