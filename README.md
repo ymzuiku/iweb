@@ -6,6 +6,18 @@ Easy use web_sys.
 use iweb;
 
 fn main(){
-    iweb::body().append(iweb::tag("div").text("Hello world"));
+    let div = iweb::tag("div");
+    div = div.text("hello");
+    iweb::body().append(&div);
+}
+```
+
+Or
+
+```rust
+use iweb;
+
+fn main(){
+    iweb::body().append(&iweb::tag("div").text("Hello world"));
 }
 ```
